@@ -28,6 +28,13 @@ A minimal x86 kernel written in C and Assembly.
 - `xorriso`
 - `qemu-system-x86_64` (for testing)
 
+## Notes
+
+This is a learning project. I don't understand 100% of the code yet,
+but I'm working on it. Some parts are inspired by:
+- OSDev Wiki
+- JamesM's kernel tutorial
+
 ## Build
 
 ```bash
