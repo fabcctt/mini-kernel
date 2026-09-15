@@ -11,9 +11,6 @@ A minimal x86 kernel written in C and Assembly.
 - [x] GDT (Global Descriptor Table)
 - [x] IDT (Interrupt Descriptor Table)
 - [x] ISR stubs for exceptions 0-31
-
-### Roadmap
-
 - [ ] IRQ (PIC)
 - [ ] Timer (PIT)
 - [ ] Keyboard
@@ -35,10 +32,14 @@ A minimal x86 kernel written in C and Assembly.
 
 This is a learning project. I don't understand 100% of the code yet, but I'm working on it. Some parts are inspired by:
 
-- [OSDev Wiki](https://wiki.osdev.org/)
-- [JamesM's kernel tutorial](https://web.archive.org/web/20200518002012/http://www.jamesmolloy.co.uk/tutorial_html/)
+- OSDev Wiki
+- JamesM's kernel tutorial
+- The Little OS Book
 
 ## Build
 
 ```bash
 make
+make run
+make clean
+```
